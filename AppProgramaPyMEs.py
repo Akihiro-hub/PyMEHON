@@ -461,6 +461,8 @@ elif rubro == "Simulación de inversión":
         df_sonkei = pd.DataFrame(data_sonkei).T.round(0)  # 小数点以下を四捨五入して整数表示
         st.dataframe(df_sonkei)
 
+        st.write("Nota: Si la utilidad antes de impuestos es negativa, la utilidad neta también debería mostrar una cantidad negativa equivalente. Sin embargo, dado que otros proyectos de la misma empresa podrían generar ganancias, en este cuadro la utilidad neta siempre se presenta como Utilidad antes de impuestos X (1-tasa de impuesto).")
+
         # キャッシュフロー計算書
         st.subheader("C) Estado de Flujo de Caja Proyectado")
 
