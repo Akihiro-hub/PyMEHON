@@ -552,7 +552,7 @@ elif rubro == "Simulación de inversión":
 
         # 損益分岐点分析グラフ
         st.subheader("E) Gráfico de Análisis de Punto de Equilibrio al año")
-        st.write("Se presentan abajo el resultado del análisis del punto de equilibrio, aunque el mismo podrá ser impreciso, suponiendo que costos productivos se clasifican en costos variables y los otros costos, incluyendo el costo invertido, en fijos. Una de las debilidades de este análisis de punto de equilibrio es que no incluye el cálculo de descuentos basado en la teoría financiera. Considerando el costo de adquisición del capital, el punto de equilibrio "real" podrá ser más alto que la cifra indicada abajo.")
+        st.write("Se presentan abajo el resultado del análisis del punto de equilibrio, aunque el mismo podrá ser impreciso, suponiendo que costos productivos se clasifican en costos variables y los otros costos, incluyendo el costo invertido, en fijos. Una de las debilidades de este análisis de punto de equilibrio es que no incluye el cálculo de descuentos basado en la teoría financiera. Considerando el costo de adquisición del capital, el punto de equilibrio, en términos reales, podrá ser más alto que la cifra indicada abajo.")
 
         # 固定費と変動費の計算
         fixedcost = gastos_administrativos + np.mean(intereses) + inversion_inicial/vida_util # 固定費は管理費と平均利息を加えたもの
