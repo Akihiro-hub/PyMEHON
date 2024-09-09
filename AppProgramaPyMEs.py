@@ -358,7 +358,7 @@ elif rubro == "Simulación de inversión":
         inversion_inicial = st.number_input("Monto de inversión (Lps)", value=100000)
         vida_util = st.number_input("Años de vida útil del equipo a invertir", value=6)
         st.write("###### :red[Tasa de impuesto:]")
-        tasa_impuesto = st.number_input("Tasa de impuesto (%)", value=35)
+        tasa_impuesto = st.number_input("Tasa de impuesto (%)", value=15)
 
     with col2:
         st.write("###### :red[Posible Uso de Crédito:]")
@@ -368,8 +368,8 @@ elif rubro == "Simulación de inversión":
         
     with col3:
         st.write("###### :red[Ingresos y costos del proyecto:]")
-        ventas_anuales = st.number_input("Ventas anuales a generar por el proyecto (Lps)", value=90000)
-        costos_ventas = st.number_input("Proporción (%) de costos productivos sobre las ventas (Nota: Aquí, costos productivos incluyen los de materias primas, trabajadores productivos, y otros relacionados al proyecto, excluyendo depreciación)", value=60)
+        ventas_anuales = st.number_input("Ventas anuales (adicionales) a generar por el proyecto (Lps)", value=90000)
+        costos_ventas = st.number_input("Proporción (%) de costos productivos sobre las ventas (Nota: Los costos productivos son de materias primas, trabajadores productivos, y otros relacionados al proyecto, excluyendo depreciación)", value=60)
         gastos_administrativos = st.number_input("Gastos administrativos anuales relacionado al proyecto (Lps)", value=5000)
 
     # Analizarボタンの設定
@@ -623,8 +623,8 @@ elif rubro == "Estudio de mercadeo":
 
     # デフォルトで除外する単語のリスト
     default_excluded_words = {
-        "la", "el", "los", "las", "él", "ella", "en", "de", "del", "un", "que", "soy", "eres", "es", "somos", "son",
-        "estoy", "estás", "le", "poder", "hace", "año", "mes", "he", "estado", "había", "años", "meses", "sobre", 
+        "la", "el", "los", "las", "él", "ella", "en", "de", "del", "un", "que", "soy", "eres", "es", "somos", "son", "inglés", "traducido",
+        "estoy", "estás", "le", "poder", "hace", "año", "mes", "he", "estado", "había", "años", "meses", "sobre", "dueño", 
         "gusta", "me", "mi", "su", "opiniones", "sugerencias", "calificación", "respuesta", "propietario", "dueño", "negocio",
         "está", "estamos", "están", "este", "aquello", "aquella", "esta", "estas", "estos", "cual", "y", "ya", "hay", "a", "al",
         "lo", "desde", "hasta", "hacia", "usted", "tú", "yo", "compartir", "con", "para", "su", "nuestro", "sea", "sean", "esté", "estén", 
