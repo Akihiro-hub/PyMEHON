@@ -1,0 +1,14 @@
+streamlit
+matplotlib
+seaborn
+openpyxl
+scikit-learn
+xgboost
+nltk
+PyPDF2
+wordcloud
+WordCloud
+stopwords
+Counter
+bigrams
+trigrams
