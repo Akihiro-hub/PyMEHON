@@ -27,7 +27,8 @@ import re
 rubro = st.sidebar.selectbox("Herramientas de planificación a aplicar", ["Seleccione", "Plan de negocio en operación",  "Pronóstico de ventas", "Simulación de inversión", "Estudio de mercadeo", "Planificación de inventario", "Planificación de venta (Comedor)"])
 
 if rubro == "Seleccione":
-    st.write("## Aplicación digital para la planificación y gestión de negocio de PyMEs :blue[(Proyecto EDIFICA)]")
+    st.write("## Aplicación digital para la planificación y gestión de negocio de PyMEs")
+    st.write("### :blue[(Programa PyMEs del Proyecto EDIFICA)]")
     st.write("##### Esta aplicación contiene diferentes herramientas para facilitar la planificación y gestión de negocio de PyMEs. Dichas herramientas incluyen;") 
     st.write("(A) Plan de negocio en operación")
     st.write("(B) Simulación de proyecto de inversión")
