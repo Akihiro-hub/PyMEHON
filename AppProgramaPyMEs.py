@@ -598,7 +598,7 @@ elif rubro == "Simulación de inversión":
 elif rubro == "Estudio de mercadeo":
     # Streamlit UIの設定
     st.write("## :blue[Análisis de Texto o Documento]") 
-    st.write("Puede elaborar Nube de Palabras (WordCloud), figura visual donde las palabras frecuentes o importantes en un texto se presentan de manera destacada. Se usa en muchos proyectos de Inteligencia Artificial.")
+    st.write("Puede elaborar, para el estudio de mercadeo u otros motivos, Nube de Palabras (WordCloud), figura visual donde las palabras frecuentes o importantes en un texto se presentan de manera destacada. Se usa en muchos proyectos de Inteligencia Artificial.")
     st.write("##### :green[Paso 1: Pegue el texto para el análisis o suba un archivo PDF.]")
 
     # テキストエリアとPDFファイルアップロードのオプション
