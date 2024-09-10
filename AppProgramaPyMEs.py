@@ -199,7 +199,7 @@ elif rubro == "Plan de negocio en operación":
             cash_inflow = sales
             cash_outflow = material_cost + labor_cost + loan_repayment + other_fixed_costs
             month_end_cash = initial_cash + cash_inflow - cash_outflow
-            cash_flow["Saldo del ejecutivo al inicio"].append(initial_cash)
+            cash_flow["Saldo del efecutivo al inicio"].append(initial_cash)
             cash_flow["Ingresos (Caja de entradas)"].append(cash_inflow)
             cash_flow["Egresos (Caja de salidas)"].append(cash_outflow)
             cash_flow["Saldo al final"].append(month_end_cash)
