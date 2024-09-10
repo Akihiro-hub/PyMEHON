@@ -190,7 +190,7 @@ elif rubro == "Plan de negocio en operación":
         required_sales = (fixed_cost + desired_profit) / (1 - variable_ratio)
         
         cash_flow = {
-            "Saldo del ejecutivo al inicio": [],
+            "Saldo del efecutivo al inicio": [],
             "Ingresos (Caja de entradas)": [],
             "Egresos (Caja de salidas)": [],
             "Saldo al final": []
