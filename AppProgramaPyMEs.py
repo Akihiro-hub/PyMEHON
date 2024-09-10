@@ -369,7 +369,7 @@ elif rubro == "Simulación de inversión":
         st.write("###### :red[Posible Uso de Crédito:]")
         monto_prestamo = st.number_input("Monto del préstamo a aplicar para la inversión (Lps)", value=60000)
         tasa_interes = st.number_input("Tasa de interés del préstamo (%)", value=20)
-        meses_prestamo = st.number_input("Meses de reembolso del préstamo", value=30)
+        meses_prestamo = st.number_input("Plazo del préstamo (meses)", value=30)
         
     with col3:
         st.write("###### :red[Ingresos y costos del proyecto:]")
