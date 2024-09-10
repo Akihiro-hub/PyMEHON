@@ -40,7 +40,7 @@ if rubro == "Seleccione":
 
 elif rubro == "Pronóstico de ventas":
     # 過去12か月の売上データの初期値
-    ventas_iniciales = [21000, 17500, 18000, 18500, 25000, 21000, 19000, 22000, 23500, 19500, 21000, 23000]
+    ventas_iniciales = [54000, 53000, 62000, 75000, 69000, 58000, 71000, 74000, 64000, 65000, 68000, 69000]
     # 過去12か月のその他の特徴量（Touristasは2022年の数値、千人単位、Cruceristas（通過者）は含まない。家族送金は2003～23年の月間平均。単位100万ドル）
     turistas = [44, 51, 71, 86, 69, 81, 85, 75, 54, 63, 71, 96]
     remesas = [477, 488, 581, 572, 618, 623, 606, 633, 599, 636, 573, 641]
@@ -80,7 +80,7 @@ elif rubro == "Pronóstico de ventas":
     col1, col2 = st.columns(2)
     with col1:
         # 選択された月の初期値
-        mes_actual = st.selectbox("Selecciona el mes actual", meses, index=7)
+        mes_actual = st.selectbox("Selecciona el mes actual", meses, index=8)
     
     with col2:
         # Select the city
