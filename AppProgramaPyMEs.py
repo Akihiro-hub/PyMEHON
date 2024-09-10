@@ -230,7 +230,7 @@ elif rubro == "Plan de negocio en operación":
     with col1:
         sales = st.number_input("Monto estimado de venta mensual (¿Cuánto monto su negocio vende al mes en Lps?):", min_value=0, value=16000, step=1, format="%d")
         desired_profit = st.number_input("Meta de ganancias mensuales (¿Cuánto desea ganar al mes en Lps?):", min_value=0, value=5000, step=1, format="%d")
-        initial_cash = st.number_input("Saldo inicial del ejecutivo (¿Cuánto monto de ejecutivo comercial tiene actualmente en Lps?):", min_value=0, value=4500, step=1, format="%d")
+        initial_cash = st.number_input("Saldo inicial del efectivo (¿Cuánto monto de efecutivo comercial tiene actualmente en Lps?):", min_value=0, value=4500, step=1, format="%d")
     with col2:
         material_cost = st.number_input("Costo mensual de materias primas (y otros costos variables, Lps):", min_value=0, value=6000, step=1, format="%d")
         labor_cost = st.number_input("Remuneraciones mensuales de trabajadores como costo fijo (Lps):", min_value=0, value=4000, step=1, format="%d")
