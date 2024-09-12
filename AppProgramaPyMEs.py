@@ -167,7 +167,7 @@ elif rubro == "Pronóstico de ventas":
         # 表の表示
         st.subheader("Datos de ventas realizadas y estimadas")
         st.write("Los datos de días de lluvia y otros indicadores no son exactamente del año pasado sino de los otros años de muestra.")
-        resultados = pd.concat([data, forecast_df])
+        resultados = pd.concat([data, forecast_df.round(0)])
         resultados.index = [f"Hace {12-i} meses ({meses[(mes_index-12+i)%12]})" for i in range(12)] + [meses[(mes_index+i)%12] for i in range(12, 24)]
         st.dataframe(resultados)
     
