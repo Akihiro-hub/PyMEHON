@@ -163,6 +163,9 @@ elif rubro == "Pronóstico de ventas":
         plt.grid(True)
         plt.tight_layout()
         st.pyplot(plt)
+
+        # 小数点以下を表示しない設定
+        pd.options.display.float_format = '{:.0f}'.format
     
         # 表の表示
         st.subheader("Datos de ventas realizadas y estimadas")
