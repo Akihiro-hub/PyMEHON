@@ -1,10 +1,4 @@
 import streamlit as st
-
-import time
-def main():
-    while True:
-        time.sleep(360 * 360)  
-
 import pandas as pd
 from io import BytesIO
 from openpyxl import Workbook
